@@ -1,44 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Link para o CSS externo -->
     <link rel="stylesheet" href="style.css">
+    
+    <!-- Biblioteca de ícones Ionicons (segura e amplamente utilizada) -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ionicons/5.5.2-0/ionicons.min.js"></script>
+    
+    <!-- Script principal da aplicação -->
     <script defer src="main.js"></script>
-    <title>Document</title>
+    
+    <title>Documento</title>
 </head>
 <body>
-    <div class="main">
-        <div class="navigation">
-          <span style="--i: 0; --x: -1; --y: 0">
-            <ion-icon name="time-outline"></ion-icon>
-          </span>
-          <span style="--i: 1; --x: 1; --y: 0">
-            <ion-icon name="moon-outline"></ion-icon>
-          </span>
-          <span style="--i: 2; --x: 0; --y: -1">
-            <ion-icon name="diamond-outline"></ion-icon>
-          </span>
-          <span style="--i: 3; --x: 0; --y: 1">
-            <ion-icon name="alarm-outline"></ion-icon>
-          </span>
-          <span style="--i: 4; --x: -1; --y: 1">
-            <ion-icon name="game-controller-outline"></ion-icon>
-          </span>
-          <span style="--i: 5; --x: -1; --y: -1">
-            <ion-icon name="chatbubble-outline"></ion-icon>
-          </span>
-          <span style="--i: 6; --x: 1; --y: -1">
-            <ion-icon name="water-outline"></ion-icon>
-          </span>
-          <span style="--i: 7; --x: 1; --y: 1">
-            <ion-icon name="camera-outline"></ion-icon>
-          </span>
+    <div class="principal">
+        <div class="navegacao">
+            <!-- Ícones de navegação com animações baseadas em variáveis CSS -->
+            <span style="--i: 0; --x: -1; --y: 0">
+                <ion-icon name="time-outline"></ion-icon>
+            </span>
+            <span style="--i: 1; --x: 1; --y: 0">
+                <ion-icon name="moon-outline"></ion-icon>
+            </span>
+            <span style="--i: 2; --x: 0; --y: -1">
+                <ion-icon name="diamond-outline"></ion-icon>
+            </span>
+            <span style="--i: 3; --x: 0; --y: 1">
+                <ion-icon name="alarm-outline"></ion-icon>
+            </span>
+            <span style="--i: 4; --x: -1; --y: 1">
+                <ion-icon name="game-controller-outline"></ion-icon>
+            </span>
+            <span style="--i: 5; --x: -1; --y: -1">
+                <ion-icon name="chatbubble-outline"></ion-icon>
+            </span>
+            <span style="--i: 6; --x: 1; --y: -1">
+                <ion-icon name="water-outline"></ion-icon>
+            </span>
+            <span style="--i: 7; --x: 1; --y: 1">
+                <ion-icon name="camera-outline"></ion-icon>
+            </span>
         </div>
-        <div class="close">
-          <ion-icon name="close-outline"></ion-icon>
+
+        <!-- Botão de fechar -->
+        <div class="fechar">
+            <ion-icon name="close-outline"></ion-icon>
         </div>
-      </div>
+    </div>
 </body>
 </html>
